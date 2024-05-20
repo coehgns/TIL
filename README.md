@@ -88,6 +88,7 @@
  ┃ ┃ ┣ 📜[Java - JRE](./Language/Java/Java%20-%20JRE.md)</br>
  ┃ ┃ ┣ 📜[Java - JUnit](./Language/Java/Java%20-%20JUnit.md)</br>
  ┃ ┃ ┣ 📜[Java - JVM](./Language/Java/Java%20-%20JVM.md)</br>
+ ┃ ┃ ┣ 📜[Java - JVM 메모리 구조](./Language/Java/Java%20-%20JVM%20메모리%20구조.md)</br>
  ┃ ┃ ┣ 📜[Java - Math.abs() 절대값](./Language/Java/Java%20-%20Math.abs()%20절대값.md)</br>
  ┃ ┃ ┣ 📜[Java - Math.random()](./Language/Java/Java%20-%20Math.random().md)</br>
  ┃ ┃ ┣ 📜[Java - overflow](./Language/Java/Java%20-%20overflow.md)</br>
