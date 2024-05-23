@@ -1,7 +1,11 @@
 # TIL
 하루에 배운 내용을 정리합니다.✨
 
-
+ ┣ 📂[**Database**](./Database/)<br>
+ ┃ ┣ 📂[**SQL**](./Database/SQL/)<br>
+ ┃ ┃ ┗ 📜[**SQL이란**](./Database/SQL/SQL이란.md)<br>
+ ┃ ┣ 📜[**DB - Databse란**](./Database/DB%20-%20Database란.md)<br>
+ ┃ ┗ 📜[**DB - DBMS란**](./Database/DB%20-%20DBMS란.md)<br>
  ┣ 📂[**GItHub**](./GItHub)</br>
  ┃ ┣ 📜[git 명령어 정리](./GItHub/git%20명령어%20정리.md)</br>
  ┃ ┗ 📜[GitHub(1)](./GItHub/GitHub(1).md)</br>
@@ -52,8 +56,8 @@
  ┃ ┣ 📜[텍스트를 한 줄로 표시하는 태그](./HTML-CSS/텍스트를%20한%20줄로%20표시하는%20태그.md)</br>
  ┃ ┣ 📜[폼](./HTML-CSS/폼.md)</br>
  ┃ ┗ 📜[표를 만드는 태그](./HTML-CSS/표를%20만드는%20태그.md)</br>
- ┣ 📂[**Language**]</br>
- ┃ ┣ 📂[**C Language**]</br>
+ ┣ 📂[**Language**](./Language/)</br>
+ ┃ ┣ 📂[**C Language**](./Language/C%20Language/)</br>
  ┃ ┃ ┣ 📜[C - strtok 함수](./Language/C%20Language/C%20-%20strtok%20함수.md)</br>
  ┃ ┃ ┣ 📜[C Language(Stack 배열 구현)](./Language/C%20Language/C%20Language(Stack%20배열%20구현).md)</br>
  ┃ ┃ ┣ 📜[C Language(Stack)](./Language/C%20Language/C%20Language(Stack).md)</br>
@@ -73,7 +77,7 @@
  ┃ ┃ ┣ 📜[C Language(조건문과 반복문)](./Language/C%20Language/C%20Language(조건문과%20반복문).md)</br>
  ┃ ┃ ┣ 📜[C Language(파일 입출력)](./Language/C%20Language/C%20Language(파일%20입출력).md)</br>
  ┃ ┃ ┗ 📜[C Language(포인터)](./Language/C%20Language/C%20Language(포인터).md)</br>
- ┃ ┣ 📂[**Java**]</br>
+ ┃ ┣ 📂[**Java**](./Language/Java/)</br>
  ┃ ┃ ┣ 📜[Java - 2차원 배열](./Language/Java/Java%20-%202차원%20배열.md)</br>
  ┃ ┃ ┣ 📜[Java - Annotation](./Language/Java/Java%20-%20Annotation.md)</br>
  ┃ ┃ ┣ 📜[Java - AssertJ](./Language/Java/Java%20-%20AssertJ.md)</br>
@@ -98,7 +102,7 @@
  ┃ ┃ ┣ 📜[Java - this와 this()](./Language/Java/Java%20-%20this와%20this().md)</br>
  ┃ ┃ ┣ 📜[Java - While문](./Language/Java/Java%20-%20While문.md)</br>
  ┃ ┃ ┣ 📜[Java - 객체 생성과 클래스 변수](./Language/Java/Java%20-%20객체%20생성과%20클래스%20변수.md)</br>
- ┃ ┃ ┣ 📜[Java - 계산과 형변환](./Language/Java/Java%20-%20계산과%20형변환.md)</br>
+ ┃ ┃ ┣ 📜[Java - 계산과 형변환](./Language/Java/Java%20-%20s계산과%20형변환.md)</br>
  ┃ ┃ ┣ 📜[Java - 논리 연산자](./Language/Java/Java%20-%20논리%20연산자.md)</br>
  ┃ ┃ ┣ 📜[Java - 대입 연산자](./Language/Java/Java%20-%20대입%20연산자.md)</br>
  ┃ ┃ ┣ 📜[Java - 메소드 오버로딩](./Language/Java/Java%20-%20메소드%20오버로딩.md)</br>
@@ -134,7 +138,7 @@
  ┃ ┃ ┣ 📜[Java - 클래스, 객체, 인스턴스 개념](./Language/Java/Java%20-%20클래스,%20객체,%20인스턴스%20개념.md)</br>
  ┃ ┃ ┣ 📜[Java - 필드](./Language/Java/Java%20-%20필드.md)</br>
  ┃ ┃ ┗ 📜[Java - 향상된 for문](./Language/Java/Java%20-%20향상된%20for문.md)</br>
- ┃ ┣ 📂[**JavaScript**]</br>
+ ┃ ┣ 📂[**JavaScript**](./Language/JavaScript/)</br>
  ┃ ┃ ┣ 📜[JS - Arrow function](./Language/JavaScript/JS%20-%20Arrow%20function.md)</br>
  ┃ ┃ ┣ 📜[JS - Rest 파라미터](./Language/JavaScript/JS%20-%20Rest%20파라미터.md)</br>
  ┃ ┃ ┣ 📜[JS - Rest, Spread 프로퍼티](./Language/JavaScript/JS%20-%20Rest,%20Spread%20프로퍼티.md)</br>
@@ -186,29 +190,29 @@
  ┃ ┃ ┣ 📜[JS - this](./Language/JavaScript/JS%20this.md)</br>
  ┃ ┃ ┣ 📜[JS - Type Checking](./Language/JavaScript/JS%20Type%20Checking.md)</br>
  ┃ ┃ ┗ 📜[JS - Type Coercion.md](./Language/JavaScript/JS%20Type%20Coercion.md)</br>
- ┃ ┗ 📂[**TypeScript**]</br>
+ ┃ ┗ 📂[**TypeScript**](./Language/TypeScript/)</br>
  ┃ ┃ ┣ 📜[TS - ts명령어](./Language/TypeScript/TS%20-%20ts명령어.md)</br>
  ┃ ┃ ┣ 📜[TS - 정적 타이핑](./Language/TypeScript/TS%20-%20정적%20타이핑.md)</br>
  ┃ ┃ ┣ 📜[TS - 클래스](./Language/TypeScript/TS%20-%20클래스.md)</br>
  ┃ ┃ ┣ 📜[TS - 기본 타입 정의, 문자열 선언 방식](./Language/TypeScript/TypeScript%20-%20기본%20타입%20정의,%20문자열%20선언%20방식.md)</br>
  ┃ ┃ ┣ 📜[TS - 정의와 장점](./Language/TypeScript/TypeScript%20-%20기본%20타입%20정의,%20문자열%20선언%20방식.md)</br>
  ┃ ┃ ┗ 📜[TS - 함수형 옵셔널 파라미터, tsconfig](./Language/TypeScript/TypeScript%20-%20함수형%20옵셔널%20파라미터,%20tsconfig.md)</br>
- ┣ 📂[**Linux**]</br>
- ┃ ┗ 📂[**linux 명령어**]</br>
+ ┣ 📂[**Linux**](./Linux/)</br>
+ ┃ ┗ 📂[**linux 명령어**](./Linux/linux%20명령어/)</br>
  ┃ ┃ ┗ 📜[Linux 기본 명령어](./Linux/linux%20명령어/Linux%20기본%20명령어.md)</br>
- ┣ 📂[**Module Bundlers**]</br>
- ┃ ┣ 📂[**Webpack**]</br>
+ ┣ 📂[**Module Bundlers**](./Module%20Bundlers/)</br>
+ ┃ ┣ 📂[**Webpack**](./Module%20Bundlers/Webpack/)</br>
  ┃ ┃ ┗ 📜[Webpack의 개념과 요소](./Module%20Bundlers/Webpack/Webpack의%20개념과%20요소.md)</br>
  ┃ ┗ 📜[Module Bundler](./Module%20Bundlers/Module%20Bundler.md)</br>
- ┣ 📂[**Package Manager**]</br>
- ┃ ┣ 📂[**npm**]</br>
+ ┣ 📂[**Package Manager**](./Package%20Manager/)</br>
+ ┃ ┣ 📂[**npm**](./Package%20Manager/npm/)</br>
  ┃ ┃ ┗ 📜[npm](./Package%20Manager/npm/npm.md)</br>
- ┃ ┣ 📂[**pnpm**]</br>
+ ┃ ┣ 📂[**pnpm**](./Package%20Manager/pnpm/)</br>
  ┃ ┃ ┗ 📜[pnpm](./Package%20Manager/pnpm/pnpm.md)</br>
- ┃ ┣ 📂[**yarn**]</br>
+ ┃ ┣ 📂[**yarn**](./Package%20Manager/yarn/)</br>
  ┃ ┃ ┗ 📜[yarn](./Package%20Manager/yarn/yarn.md)</br>
  ┃ ┗ 📜[Package Manager](./Package%20Manager/Package%20Manager.md)</br>
- ┣ 📂[**React**]</br>
+ ┣ 📂[**React**](./React/)</br>
  ┃ ┣ 📜[React - arrow function](./React/React%20-%20arrow%20function.md)</br>
  ┃ ┣ 📜[React - autofocus](./React/React%20-%20autofocus.md)</br>
  ┃ ┣ 📜[React - bind() 함수](./React/React%20-%20bind()%20함수.md)</br>
@@ -251,7 +255,7 @@
  ┃ ┣ 📜[React - 장단점](./React/React%20-%20장단점.md)</br>
  ┃ ┣ 📜[React - 정의](./React/React%20-%20정의.md)</br>
  ┃ ┗ 📜[React - 클릭 이벤트 처리하기](./React/React%20-%20클릭%20이벤트%20처리하기.md)</br>
- ┣ 📂[**Spring**]</br>
+ ┣ 📂[**Spring**](./Spring/)</br>
  ┃ ┣ 📜[Spring - @RequestBody](./Spring/Spring%20-%20@RequestBody.md)</br>
  ┃ ┣ 📜[Spring - @ResponseBody](./Spring/Spring%20-%20@ResponseBody.md)</br>
  ┃ ┣ 📜[Spring - Controller](./Spring/Spring%20-%20Controller.md)</br>
@@ -259,11 +263,11 @@
  ┃ ┣ 📜[Spring - 동적 컨텐츠](./Spring/Spring%20-%20동적%20컨텐츠.md)</br>
  ┃ ┣ 📜[Spring - 라이브러리](./Spring/Spring%20-%20라이브러리.md)</br>
  ┃ ┗ 📜[Spring - 정적 컨텐츠](./Spring/Spring%20-%20정적%20컨텐츠.md)</br>
- ┣ 📂[**Web**]</br>
+ ┣ 📂[**Web**](./Web/)</br>
  ┃ ┣ 📜[Web - 동적 웹페이지(Dynamic Web Page)](./Web/Web%20-%20동적%20웹페이지(Dynamic%20Web%20Page).md)</br>
  ┃ ┗ 📜[Web - 정적 웹페이지(Static Web Page)](./Web/Web%20-%20정적%20웹페이지(Static%20Web%20Page).md)</br>
- ┣ 📂[**개발**]</br>
- ┃ ┣ 📂[**Network**]</br>
+ ┣ 📂[**개발**](./개발/)</br>
+ ┃ ┣ 📂[**Network**](./개발/Network/)</br>
  ┃ ┃ ┣ 📜[Network - DNS의 기본 개념과 동작 방식](./개발/Network/Internet%20-%20DNS의%20기본%20개념과%20동작%20방식.md)</br>
  ┃ ┃ ┣ 📜[Network - HTTP 개념 및 주요 내용](./개발/Network/Internet%20-%20HTTP%20개념%20및%20주요%20내용.md)</br>
  ┃ ┃ ┣ 📜[Network - 도메인 네임의 개념](./개발/Network/Internet%20-%20도메인%20네임의%20개념.md)</br>
@@ -272,7 +276,7 @@
  ┃ ┃ ┣ 📜[Network - 호스팅의 개념](./개발/Network/Internet%20-%20호스팅의%20개념.md)</br>
  ┃ ┃ ┣ 📜[Network - OSI 7계층](./개발/Network/Network%20-%20OSI%207계층.md)</br>
  ┃ ┃ ┗ 📜[Network - TCP UDP](./개발/Network/Network%20-%20TCP%20UDP.md)</br>
- ┃ ┣ 📂[**개발 방법**]</br>
+ ┃ ┣ 📂[**개발 방법**](./개발/개발%20방법/)</br>
  ┃ ┃ ┣ 📜[BDD](./개발/개발%20방법/BDD.md)</br>
  ┃ ┃ ┗ 📜[TDD](./개발/개발%20방법/TDD.md)</br>
  ┃ ┣ 📜[Algorithm](./개발/Algorithm.md)</br>
@@ -282,14 +286,14 @@
  ┃ ┣ 📜[개발자의 종류와 하는 일](./개발/개발자의%20종류와%20하는%20일.md)</br>
  ┃ ┣ 📜[기초 IT 지식](./개발/기초%20IT%20지식.md)</br>
  ┃ ┗ 📜[도커, 도커 컴포즈](./개발/도커,%20도커%20컴포즈.md)</br>
- ┣ 📂[**객체지향**]</br>
- ┃ ┣ 📂[**SOLID 5원칙**]</br>
+ ┣ 📂[**객체지향**](./객체지향/)</br>
+ ┃ ┣ 📂[**SOLID 5원칙**](./객체지향/SOLID%205원칙/)</br>
  ┃ ┃ ┣ 📜[개방-폐쇄 원칙](./객체지향/SOLID%205원칙/개방-폐쇄%20원칙.md)</br>
  ┃ ┃ ┣ 📜[단일 책임 원칙](./객체지향/SOLID%205원칙/단일%20책임%20원칙.md)</br>
  ┃ ┃ ┣ 📜[리스코프 치환 원칙](./객체지향/SOLID%205원칙/리스코프%20치환%20원칙.md)</br>
  ┃ ┃ ┣ 📜[의존성 역전 원칙 (DIP)](./객체지향/SOLID%205원칙/의존성%20역전%20원칙%20(DIP).md)</br>
  ┃ ┃ ┗ 📜[인터페이스 분리 원칙(ISP)](./객체지향/SOLID%205원칙/인터페이스%20분리%20원칙(ISP).md)</br>
  ┃ ┗ 📜[객체지향언어](./객체지향/객체지향언어.md)</br>
- ┣ 📂[**기타**]</br>
+ ┣ 📂[**기타**](./기타/)</br>
  ┃ ┣ 📜[백준](./기타/백준.md)</br>
  ┃ ┗ 📜[제텔카스텐이란](./기타/제텔카스텐이란.md)</br>
