@@ -1,3 +1,4 @@
+# @Configuration
 ```java
 @Configuration
 public class 클래스명() {
