@@ -7,7 +7,8 @@
 
 TTL을 설정하게 되면 라우터와 같은 네트워크 장비를 거칠 때 TTL의 값이 1씩 감소하게 되고 값이 0이 되면 패킷은 드랍되게 됩니다.
 
-![[Pasted image 20241011223756.png]]
+![image](https://github.com/user-attachments/assets/a59c7efa-46f3-41e6-a8b6-a665af03a60c)
+
 ## 참고 자료
 - https://velog.io/@rkadl9999/TTL%EC%9D%B4-%EB%AD%94%EC%A7%80-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90
 - https://velog.io/@numerok/TTL%EC%9D%B4%EB%9E%80
