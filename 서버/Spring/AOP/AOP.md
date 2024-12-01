@@ -18,7 +18,7 @@
 	- AOP를 적용할 수 있는 모든 지점을 말합니다.
 	- 애플리케이션 실행 흐름에서의 특정 포인트입니다. (메서드 호출, 예외 발생, 클래스 초기화 등)
 - **Point Cut**
-	- Joint Point 중 Advice가 적용될 지점을 선별하는 기능입니다.
+	- Join Point 중 Advice가 적용될 지점을 선별하는 기능입니다.
 - Advisor
 	- 하나의 Advice와 하나의 Point Cut으로 구성된 Aspect를 특별하게 지칭하는 말입니다.
 
