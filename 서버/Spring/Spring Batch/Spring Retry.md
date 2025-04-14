@@ -7,7 +7,6 @@
 2. 서버는 DB에서 이미지를 GET하는 요청을 보냅니다.(이 과정에서 오류 발생)
 3. 오류 발생 후 `Retry`는 `DB` 서버에 요청을 다시 보냅니다.
 4. 그 후 사진을 `Client`에게 응답을 보냅니다.
-## ```
 ## @EnableRetry
 - `Retry`를 활성화시키기 위해 `@EnableRetry`를 `SpringbootApplication` 클래스에 작성합니다.
 ```Kotlin
