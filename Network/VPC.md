@@ -1,11 +1,11 @@
 # VPC(Virtual Private Cloud)
 VPC를 사용하지 않는다면 다음 사진처럼 여러 EC2 리소스들이 서로 거미줄처럼 연결되고 인터넷망과 연결되어있을 것입니다. 이러한 구조는 시스템적으로 복잡성이 올라가고, 인스텬스 리소스들이 서로 연결되어 있어, 하나의 인스턴스 수정 시 또 다른 인스턴스를 수정해야하는 불편함이 생길 수 있습니다.
 
-<img width="1021" height="784" alt="Image" src="https://github.com/user-attachments/assets/9899d8c3-4a83-43df-a115-63933531f040" />
+<img width="755" alt="Image" src="https://github.com/user-attachments/assets/9899d8c3-4a83-43df-a115-63933531f040" />
 
 이러한 불편함을 해소하기 위해서 VPC를 사용하게 됩니다.
 
-<img width="982" height="784" alt="Image" src="https://github.com/user-attachments/assets/b93cf677-8a49-466b-b85d-7a130af69255" />
+<img width="750" alt="Image" src="https://github.com/user-attachments/assets/b93cf677-8a49-466b-b85d-7a130af69255" />
 
 VPC를 사용하게 되면 위 그림처럼 각각의 VPC 별로 네트워크를 구성하고, 설정할 수 있습니다.
 
@@ -36,7 +36,7 @@ VPC를 사용하게 되면 위 그림처럼 각각의 VPC 별로 네트워크를
 
 인터넷과 연결되어있는 서브넷을 퍼블릭 서브넷이라고 부르고, 연결되어있지 않은 서브넷은 프라이빗 서브넷이라고 부릅니다.
 
-<img width="1684" height="933" alt="Image" src="https://github.com/user-attachments/assets/aa436d38-a6f4-4deb-8fed-948ef3d1d27c" />
+<img width="750" alt="Image" src="https://github.com/user-attachments/assets/aa436d38-a6f4-4deb-8fed-948ef3d1d27c" />
 
 ## 네트워크 ACL과 보안 그룹
 - 네트워크 ACL과 보안 그룹은 방화벽 역할을 합니다.
@@ -47,14 +47,14 @@ VPC를 사용하게 되면 위 그림처럼 각각의 VPC 별로 네트워크를
 - 네트워크 ACL은 `Stateless`하게 작동하며 모든 트래픽이 기본적으로 허용되어있기 때문에 불필요한 트래픽을 막도록 설정해주어야 합니다.
 - 서브넷 단위로 적용되고, 보안 그룹과는 다르게 EC2와 같은 리소스 별로 설정할 수 없습니다.
 
-<img width="1400" height="1195" alt="Image" src="https://github.com/user-attachments/assets/6b3b6c8d-b4a1-4789-ad54-41cd2aa2cc5c" />
+<img width="750" alt="Image" src="https://github.com/user-attachments/assets/6b3b6c8d-b4a1-4789-ad54-41cd2aa2cc5c" />
 
 ## NAT 게이트웨이
 - NAT 게이트웨이는 프라이빗 서브넷이 인터넷과 통신을 하기 위한 아웃바운드 인스턴스입니다.
 - 프라이빗 네트워크이기 때문에 요청에 대한 인바운드는 필요 없더라도 펌웨어나 주기적인 업데이트가 필요하여 아웃바운드 트래픽을 허용해야하는 경우가 있습니다.
 - NAT 게이트웨이는 퍼블릭 서브넷에서 위치하여 프라이빗 서브넷에서 아웃바운드되는 요청을 `IGA`와 연결합니다.
 
-<img width="1793" height="1094" alt="Image" src="https://github.com/user-attachments/assets/6fdf561b-9ff8-4181-b4b8-6680017b9a77" />
+<img width="750" alt="Image" src="https://github.com/user-attachments/assets/6fdf561b-9ff8-4181-b4b8-6680017b9a77" />
 
 ## 참고 자료
 - https://medium.com/harrythegreat/aws-%EA%B0%80%EC%9E%A5%EC%89%BD%EA%B2%8C-vpc-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0-71eef95a7098
