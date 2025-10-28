@@ -34,7 +34,6 @@
 
 # 4. RSET API Example
 
-- json-server
 - GET
 - POST
 - PUT
