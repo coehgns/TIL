@@ -5,7 +5,7 @@
 
 # Spring에서 Cache 사용하기 
 
-### 1. CacheConfig
+### 1. CacheConfig
 - Spring에서 캐시를 사용하기 위해서는 기본적으로 CacheConfig를 설정해주어야 합니다. 이 때 `@EnableCaching` 어노테이션을 사용해서 캐싱을 활성화시켜주어야 합니다.
 ```Java
 @EnableCaching
@@ -32,7 +32,7 @@ CacheConfig를 설정해주었다면 Config 클래스 안에 캐시 매니저 �
 - 이 때 캐시된 데이터가 없을 경우 해당 메서드 로직을 실행하고, 캐시된 데이터가 있을 경우 메서드를 실행하지 않고 캐시된 데이터를 가져옵니다.
 ```Java
 @Cacheable("principalName")
-public Teacher getPrincipalName(Long teacherId) {
+public Teacher getPrincipalName(Long teacherId) {
 	...	
 }
 ```
